@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "Roxborough CF Thin"; src: url("//db.onlinewebfonts.com/t/68b898f6044bbee439423445076f3168.eot"); src: url("//db.onlinewebfonts.com/t/68b898f6044bbee439423445076f3168.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/68b898f6044bbee439423445076f3168.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/68b898f6044bbee439423445076f3168.woff") format("woff"), url("//db.onlinewebfonts.com/t/68b898f6044bbee439423445076f3168.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/68b898f6044bbee439423445076f3168.svg#Roxborough CF Thin") format("svg"); }
+  @font-face {
+    font-family: "Neoneon"; src: url("//db.onlinewebfonts.com/t/8174214b59c74c684285ae6b35662282.eot"); src: url("//db.onlinewebfonts.com/t/8174214b59c74c684285ae6b35662282.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/8174214b59c74c684285ae6b35662282.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/8174214b59c74c684285ae6b35662282.woff") format("woff"), url("//db.onlinewebfonts.com/t/8174214b59c74c684285ae6b35662282.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/8174214b59c74c684285ae6b35662282.svg#Neoneon") format("svg"); }
+    @import url('http://fonts.cdnfonts.com/css/komorebi');
+    @font-face {font-family: "Alfa Slab One"; src: url("//db.onlinewebfonts.com/t/0450a1018e34cd82ee8cd97ebe489ded.eot"); src: url("//db.onlinewebfonts.com/t/0450a1018e34cd82ee8cd97ebe489ded.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0450a1018e34cd82ee8cd97ebe489ded.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0450a1018e34cd82ee8cd97ebe489ded.woff") format("woff"), url("//db.onlinewebfonts.com/t/0450a1018e34cd82ee8cd97ebe489ded.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0450a1018e34cd82ee8cd97ebe489ded.svg#Alfa Slab One") format("svg"); }
+    @font-face {font-family: "Open Sans Light"; src: url("//db.onlinewebfonts.com/t/1bf71be111189e76987a4bb9b3115cb7.eot"); src: url("//db.onlinewebfonts.com/t/1bf71be111189e76987a4bb9b3115cb7.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1bf71be111189e76987a4bb9b3115cb7.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1bf71be111189e76987a4bb9b3115cb7.woff") format("woff"), url("//db.onlinewebfonts.com/t/1bf71be111189e76987a4bb9b3115cb7.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1bf71be111189e76987a4bb9b3115cb7.svg#Open Sans Light") format("svg"); }
+   .nice {
+     font-family: "Open Sans Light";
+   }
+    .four {
+      font-family: "Alfa Slab One";
+    }
+  .little {
+    font-family: "Alleron Thin";
+  }
+    .one {
+  font-family: "Roxborough CF Thin";
+
+}
+.nav {
+  font-family: "Komorebi";
+}
+.title {
+  font-family: "Neoneon";
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
