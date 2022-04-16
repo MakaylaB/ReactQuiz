@@ -21,10 +21,10 @@ const MyRoutes = () => {
                 <Route path="/register" element={<Person />}></Route>            <Route path="/reset" element={<Reset />}></Route>
                 <Route path="/reset" element={<Reset />}></Route>
                 <Route path="/profile" element={
-                    // <RequireAuth>
+                    <RequireAuth>
 
                         <Profile />
-                    // </RequireAuth>
+                     </RequireAuth>
 
                 }></Route>
                 <Route path="/about" element={<About />}></Route>

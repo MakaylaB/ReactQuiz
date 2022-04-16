@@ -11,9 +11,7 @@ import { FaSpinner } from 'react-icons/fa';
 function Login({ name }) {
     const [processing, setProcessing] = useState(false)
     const navigate = useNavigate()
-    const successHandler = () => {
-        navigate("/loginSuccessful")
-    }
+ 
     const resetPageHandler = () => {
         navigate("/reset")
     }
@@ -46,7 +44,7 @@ function Login({ name }) {
     });
 
     const onSuccess = () => {
-
+navigate("/profile")
     }
 
     const onFailure = (message) => {
@@ -82,7 +80,6 @@ function Login({ name }) {
                 </div>
                 <button type="submit" 
                     className="ml-50 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-darker-brown shadow-xl md:w-1/3  uppercase bg-brown text-white font-bold py-2 px-5 rounded-full"
-                    onclick={successHandler}
                     >
                     Sign Up
                     {processing && <FaSpinner icon="spinner" className="spinner h-10 w-10 animate-spin" />}

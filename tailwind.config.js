@@ -9,6 +9,7 @@ module.exports = {
       'brown': '#B6917D',
       'darker-brown':'#705445', 
       'tan': '#EDE5D6', 
+      'darkertan':'#CBB099',
       'light-brown': '#B76E22', 
      },
      fontFamily: {

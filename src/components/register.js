@@ -41,9 +41,10 @@ function Person({ form }) {
     }
 
     return (
+        
 <Layout>       
      <div className="grid grid-cols-2  col-span-2 ">
-         <div className="mt-40">
+
      <h1 className="nav text-7xl text-center text-brown">Create Account</h1>
 <br/>
 
@@ -111,9 +112,6 @@ Password      </label>
                         </button>
 
                     </form>
-                    </div>
-                    <img className="h-screen w-full" src={pic}/>
-
                     </div>
                     </Layout>
 
